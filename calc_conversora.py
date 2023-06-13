@@ -54,11 +54,7 @@ def conv_hex(numero):
         numero = numero//16
     resul = dig_hex(numero) + resul
     print (f"{orig} en base 16 es: {resul}")
-    
-    
         
-    
-    
 def conversora():
     numero = input("Ingrese el número a convertir: ")
     while not es_int(numero):
