@@ -1,7 +1,9 @@
+#Importo los módulos de cada calculadora
 import calc_clasica as clas
 import calc_fracciones as frac
 import calc_conversora as conv
 
+#Función que imprime la interfaz del selector de calculadoras
 def mostrar_interfaz():
     print(" _______________________________\n"
     "|Ingrese función deseada:       |\n"
@@ -11,6 +13,7 @@ def mostrar_interfaz():
     "|4. Salir                       |\n"
     "|_______________________________|")
     
+#Función que indica si la opción elegida es válida o no
 def check_val(valor):
     if valor == '1':
         valido = True
@@ -24,6 +27,7 @@ def check_val(valor):
         valido = False
     return valido
 
+#Cuerpo principal, donde el usuario ingresa la opción deseada
 op = '0'
 while op != '4':
     mostrar_interfaz()
