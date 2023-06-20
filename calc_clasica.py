@@ -1,3 +1,5 @@
+#Calculadora Clásica Trabajo Grupal Final - Ceballos - Yaben
+
 #Función que indica si el valor ingresado es un flotante o un signo '='
 def float_val(entrada):
     if entrada == '=':
