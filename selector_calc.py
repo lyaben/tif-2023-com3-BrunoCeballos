@@ -1,3 +1,5 @@
+#Selector de calculadoras Trabajo Grupal Final - Ceballos - Yaben
+
 #Importo los módulos de cada calculadora
 import calc_clasica as clas
 import calc_fracciones as frac
@@ -32,7 +34,7 @@ op = '0'
 while op != '4':
     mostrar_interfaz()
     op = input("Función: ")
-    while not check_val(op):
+    while not check_val(op):    #Verifico que la opción elegida sea una válida
             op = input("Ingrese una función correcta (1-4): ")
     if op == '1':
         clas.clasica()
