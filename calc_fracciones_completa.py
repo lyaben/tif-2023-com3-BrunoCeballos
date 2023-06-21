@@ -1,3 +1,5 @@
+#Calculadora de Fracciones Completa. Trabajo Grupal Final - Ceballos - Yaben
+
 #Esta función ve si el número ingresado es una fracción.
 def fraccionValida(n):
     try:
